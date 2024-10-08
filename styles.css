@@ -22,16 +22,18 @@
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(7px);
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 0.5rem 3rem;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .tic-tac-toe {
     width: 90%;
     max-width: 20rem;
     background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(7px);
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 2rem;
@@ -50,6 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 150ms ease-in-out;
 }
 
 .box1, .box2, .box4, .box5 {
@@ -72,10 +75,12 @@
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(7px);
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 0.5rem 2rem;
     cursor: pointer;
+    transition: all 150ms ease-in-out;
     display: none;
 }
 
